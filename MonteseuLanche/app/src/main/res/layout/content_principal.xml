@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fabricio.monteseulanche.Principal"
+    tools:showIn="@layout/app_bar_principal"
+    android:background="@drawable/fundo">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/imageView21"
+        android:layout_above="@+id/imageView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/burgerprincipal"
+        android:id="@+id/imageView4"
+        android:paddingEnd="0dp"
+        android:paddingLeft="0dp"
+        android:layout_below="@+id/imageView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/flocalizar"
+        android:id="@+id/imageView12"
+        android:layout_marginTop="48dp"
+        android:layout_alignTop="@+id/imageView18"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fmontar"
+        android:id="@+id/imageView18"
+        android:layout_marginBottom="185dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView12"
+        android:layout_alignStart="@+id/imageView12" />
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fcardapio"
+        android:id="@+id/imageView19"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/imageView18"
+        android:layout_alignStart="@+id/imageView18" />
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fcupom"
+        android:id="@+id/imageView20"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/imageView18"
+        android:layout_alignLeft="@+id/imageView19"
+        android:layout_alignStart="@+id/imageView19" />
+
+    <TextView
+        android:text="CUPONS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/imageView19"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="CARDÁPIO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:text="MONTAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView19"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:text="LOCALIZAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:id="@+id/textView6"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+</RelativeLayout>
